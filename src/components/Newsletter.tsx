@@ -5,6 +5,7 @@ export const Newsletter = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     console.log("Subscribed!");
+    alert("Thank You ! For joining us.");
   };
 
   return (
